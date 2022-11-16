@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get geographic data from a public IP address.</description>
+        <ih_action>false</ih_action>
+        <internal_name>get_geographic_data_from_ip</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Get Geographic Data from IP</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 15:40:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>64187f4d07071110af39f1e08c1ed089</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Get Geographic Data from IP</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IPInfo Spoke" source="x_817075_ipinfo_sp">a566370d07071110af39f1e08c1ed014</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPInfo Spoke">a566370d07071110af39f1e08c1ed014</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_64187f4d07071110af39f1e08c1ed089</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-07 15:53:07</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=64187f4d07071110af39f1e08c1ed089"/>
+    <sys_variable_value action="delete_multiple" query="document_key=64187f4d07071110af39f1e08c1ed089"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=64187f4d07071110af39f1e08c1ed089^sys_idNOT IN5ffa3b8107471110af39f1e08c1ed00c"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Geographic Data from IP">64187f4d07071110af39f1e08c1ed089</action>
+        <cid>0cbd26f3-8f78-4f24-b45e-cf42901ac966</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 15:53:05</sys_created_on>
+        <sys_id>5ffa3b8107471110af39f1e08c1ed00c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="IPInfo Spoke">a566370d07071110af39f1e08c1ed014</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-07 15:53:06</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5ffa3b8107471110af39f1e08c1ed00c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5ffa3b8107471110af39f1e08c1ed00c</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 15:53:06</sys_created_on>
+        <sys_id>2bfa3b8107471110af39f1e08c1ed031</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-07 15:53:06</sys_updated_on>
+        <value>https://ipinfo.io</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5ffa3b8107471110af39f1e08c1ed00c</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 15:53:06</sys_created_on>
+        <sys_id>67fa3b8107471110af39f1e08c1ed031</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-07 15:53:06</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5ffa3b8107471110af39f1e08c1ed00c</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 15:53:06</sys_created_on>
+        <sys_id>a3fa3b8107471110af39f1e08c1ed031</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-07 15:53:06</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5ffa3b8107471110af39f1e08c1ed00c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 15:53:06</sys_created_on>
+        <sys_id>affa3b8107471110af39f1e08c1ed031</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-07 15:53:06</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5ffa3b8107471110af39f1e08c1ed00c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 15:53:06</sys_created_on>
+        <sys_id>e7fa3b8107471110af39f1e08c1ed030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-07 15:53:06</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5ffa3b8107471110af39f1e08c1ed00c</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 15:53:06</sys_created_on>
+        <sys_id>ebfa3b8107471110af39f1e08c1ed031</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-07 15:53:06</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5ffa3b8107471110af39f1e08c1ed00c</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 15:53:06</sys_created_on>
+        <sys_id>effa3b8107471110af39f1e08c1ed030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-07 15:53:06</sys_updated_on>
+        <value> 8.8.8.8/json</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=5ffa3b8107471110af39f1e08c1ed00c"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=5ffa3b8107471110af39f1e08c1ed00c"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=5ffa3b8107471110af39f1e08c1ed00c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5ffa3b8107471110af39f1e08c1ed00c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_5ffa3b8107471110af39f1e08c1ed00c"/>
+    <sys_hub_action_input action="delete_multiple" query="model=64187f4d07071110af39f1e08c1ed089"/>
+    <sys_hub_action_output action="delete_multiple" query="model=64187f4d07071110af39f1e08c1ed089"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=64187f4d07071110af39f1e08c1ed089"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=64187f4d07071110af39f1e08c1ed089^sys_idNOT IN67fa3b8107471110af39f1e08c1ed037"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get Geographic Data from IP">64187f4d07071110af39f1e08c1ed089</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 15:53:06</sys_created_on>
+        <sys_id>67fa3b8107471110af39f1e08c1ed037</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-07 15:53:06</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=67fa3b8107471110af39f1e08c1ed037"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_64187f4d07071110af39f1e08c1ed089"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_64187f4d07071110af39f1e08c1ed089"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_64187f4d07071110af39f1e08c1ed089"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_64187f4d07071110af39f1e08c1ed089"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=64187f4d07071110af39f1e08c1ed089"/>
+</record_update>
